@@ -40,7 +40,7 @@ end
     
 def merge_data(keys, data)
   merged_data = data[0]
-  keys.map(merged_data.)
+  keys.map(merged_data[]
   
 end 
 
