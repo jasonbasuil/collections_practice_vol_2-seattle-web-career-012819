@@ -41,7 +41,7 @@ end
 def merge_data(keys, data)
   merged_data = data[0]
   keys.map do |x|
-    x.merge(keys)
+    x.merge(merged_data[key][:first_name]
   
 end 
 
