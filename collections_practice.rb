@@ -46,8 +46,8 @@ def merge_data(keys, data)
 end 
 
 def find_cool(array)
-  array.find()
-  cool.find(:temperature => "cool")
+  array.find_all do |x|
+    cool.find(:temperature => "cool")
 end 
   
   
