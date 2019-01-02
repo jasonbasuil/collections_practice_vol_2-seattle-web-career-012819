@@ -48,6 +48,7 @@ end
 def find_cool(array)
   array.find_all do |x|
     x[:temperature] == "cool"
+  end 
 end 
   
   
