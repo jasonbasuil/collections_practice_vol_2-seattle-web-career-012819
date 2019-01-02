@@ -41,7 +41,7 @@ end
 def merge_data(keys, data)
   merged_data = data[0]
   keys.map do |x|
-    merged_data[]
+    x.merge(keys)
   
 end 
 
